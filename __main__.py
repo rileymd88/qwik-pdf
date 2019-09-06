@@ -81,17 +81,23 @@ class ExtensionService(SSE.ConnectorServicer):
         :return: the same iterable sequence as received
         """
         # empty parameters
+        extraction_method = None
         path = None
         template = None
         for request_rows in request:
             # pull duals from each row, and the numData from duals
             for row in request_rows.rows:
+                if extraction_method is None:
+                    extraction_method = [d.strData for d in row.duals][0]
                 if path is None:
-                    path = [d.strData for d in row.duals][0]
+                    path = [d.strData for d in row.duals][1]
                 if template is None:
-                    template = [d.strData for d in row.duals][1]                    
+                    template = [d.strData for d in row.duals][2]                    
         # read PDF with template
-        df_list = read_pdf_with_template(path, template)
+        if extraction_method == 'stream':
+            df_list = read_pdf_with_template(path, template, stream=True)
+        else:
+            df_list = read_pdf_with_template(path, template, lattice=True)    
         final_df = pd.DataFrame()    
         count = 1
         for df in df_list:

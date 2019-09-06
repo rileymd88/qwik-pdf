@@ -1,3 +1,7 @@
 {
-    "python.pythonPath": "C:\\Users\\ckg\\envs\\qwik_pdf\\Scripts\\python.exe"
+    "python.pythonPath": "C:\\Users\\ckg\\envs\\qwik_pdf\\Scripts\\python.exe",
+    "cSpell.words": [
+        "qlik",
+        "qwik"
+    ]
 }

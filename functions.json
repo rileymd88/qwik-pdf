@@ -6,7 +6,8 @@
             "Type" : 2,
             "ReturnType": 0,
             "Params" : {
-                "fileLocation" : 0,
+                "extractionMethod": 0,
+                "fileLocation": 0,
                 "fileTemplate": 0
                 }
         }
