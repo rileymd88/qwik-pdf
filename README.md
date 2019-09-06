@@ -4,8 +4,12 @@ Qwik PDF is a Qlik Sense Server Side Extension which enables table data to be re
 From This
 ![intro1](https://raw.githubusercontent.com/rileymd88/data/master/qwik-pdf/qwik-pdf_intro1.PNG)
 
+
 To This:
 ![intro2](https://raw.githubusercontent.com/rileymd88/data/master/qwik-pdf/qwik-pdf_intro2.PNG)
+
+
+
 ## Pre-Requisites 
 1. Python 3.7.2 installed. This could work with other Python versions, however it has only be tested on this version. You can download 3.7.2 from here: https://www.python.org/ftp/python/3.7.2/python-3.7.2-amd64.exe
 2. tabula-py is a wrapper of tabula-java, therefore Java 7 or 8 needs to be installed. For Windows please check this guide here if you get any Java related errors: https://github.com/chezou/tabula-py#get-tabula-py-working-windows-10
