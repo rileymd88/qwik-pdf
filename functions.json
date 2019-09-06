@@ -1,0 +1,14 @@
+{
+    "Functions" : [
+        {
+            "Id" : 0,
+            "Name" : "GetPDFTable",
+            "Type" : 2,
+            "ReturnType": 0,
+            "Params" : {
+                "fileLocation" : 0,
+                "fileTemplate": 0
+                }
+        }
+    ]
+}
