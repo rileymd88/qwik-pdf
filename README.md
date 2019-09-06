@@ -31,11 +31,11 @@ Within this repository there is a sample app Python PDF, sample PDF fs2.pdf abd 
 2. Use the wizard to select data from the PDF. Use the preview to ensure you are extracting the correct data. Make note if the extraction method stream or lattice fits your data better
 ![2](https://raw.githubusercontent.com/rileymd88/data/master/qwik-pdf/qwik-pdf2.PNG)
 ![3](https://raw.githubusercontent.com/rileymd88/data/master/qwik-pdf/qwik-pdf3.PNG)
-3. Once you are sure you are extracting the correct data, click on the template button save the template
+3. Once you are sure you are extracting the correct data, click on the template button to save the template
 ![4](https://raw.githubusercontent.com/rileymd88/data/master/qwik-pdf/qwik-pdf4.PNG)
 4. Navigate to the My Templates section and download the template JSON file. Take note of where you save this as you will need this location in the next step
 ![5](https://raw.githubusercontent.com/rileymd88/data/master/qwik-pdf/qwik-pdf5.PNG)
-5. Within the Qlik Sense App, replace the template entry in the inline table with the path and file name of the template you downloaded in step 3
+5. Within the Qlik Sense App, replace the template entry in the inline table with the path and file name of the template you downloaded in step 4
 ![6](https://raw.githubusercontent.com/rileymd88/data/master/qwik-pdf/qwik-pdf6.PNG)
 6. Within the Qlik Sense App, replace the extraction_method in the inline table with the extraction method which fit your data better in step 2. (Note only stream and lattice can be given as options in all lowercase)
 ![7](https://raw.githubusercontent.com/rileymd88/data/master/qwik-pdf/qwik-pdf7.PNG)
